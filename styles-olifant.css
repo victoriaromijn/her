@@ -1,0 +1,192 @@
+/* overall style */
+h1 {
+  font-family: 'Montserrat', sans-serif, 900;
+  font-weight: 900;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+
+  font-weight: 300;
+  font-size: 1em;
+}
+
+body {
+  background-color: #EFEEFA;
+  margin-top: 10vh;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+button {
+  font-family: 'Patua One', cursive;
+  margin: 1vw;
+  font-size: 2em;
+  text-align: center;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+
+  box-shadow: inset 0px 2px 3px #fff;
+}
+
+/* form style */
+
+main section:first-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+
+}
+
+input {
+  font-family: 'Montserrat',
+    sans-serif;
+  font-weight: 800;
+  font-size: 1.5em;
+  background-color: #EFEEFA;
+  border: 2px solid black;
+  text-align: center;
+  margin: 0vw 1vw;
+}
+
+label {
+  font-family: 'Montserrat', sans-serif;
+
+  font-weight: 300;
+  font-size: 2em;
+}
+
+
+
+form button {
+  font-size: 1.5em;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  font-family: 'Patua One',
+    cursive;
+
+}
+
+form button img {
+  height: 15px;
+  align-items: center;
+  justify-content: center;
+}
+
+/* structuur pop en buttons */
+main section:nth-child(2) {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 3vw 20vw;
+}
+
+#buttonslinks,
+#buttonsrechts {
+
+  display: flex;
+  flex-direction: column;
+
+}
+
+/* pop positionering en opmaak*/
+main section:nth-child(2) section:nth-child(2) {
+  top: 0;
+  left: 0;
+  margin: 15vh 0vh 25vh 0vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+#hoofd {
+  height: 18vh;
+  width: auto;
+  position: fixed;
+  top: 27vh;
+  /* left: 90.35vh; */
+}
+
+#shirt {
+  height: 20vh;
+  top: 37.5vh;
+  position: fixed;
+  z-index: -1;
+}
+
+#broek {
+  height: 16vh;
+  position: fixed;
+  top: 51vh;
+  z-index: -2;
+  /* left: 91vh; */
+}
+
+
+#platform {
+  position: fixed;
+  top: 55vh;
+  width: 30vh;
+  z-index: -3;
+
+}
+
+.hidden {
+  display: none;
+}
+
+
+#kip {
+  position: fixed;
+  height: 25vh;
+  top: 43vh;
+
+}
+
+/* buttons links en rechts */
+#buttonslinks,
+#buttonsrechts {
+
+  display: flex;
+  flex-direction: column;
+
+}
+
+/*footer en buttons onderin */
+
+
+
+#chicken img,
+#speaker img {
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+
+}
+
+
+
+footer {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+footer p {
+  top: 93vh;
+  position: fixed;
+}

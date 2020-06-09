@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Eindopdracht</title>
+  <link rel="stylesheet" href="styles-olifant.css" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;0,900;1,300;1,500;1,900&display=swap"
+    rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Patua+One&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <main>
+    <section>
+      <!-- het formulier -->
+
+      <!-- Het leek mij leuker om te focusen op een random afbeelding en meer met arrays en loops te werken, dus heb ik weinig aandacht besteed aan het formulier -->
+
+      <form action="Submit Name">
+        <label for="Name"> Name your character</label>
+        <input type="Name" />
+        <button id="submit" type="submit">
+          <img src="images/buttons/check.png" alt="" />
+        </button>
+      </form>
+    </section>
+
+    <section>
+      <!-- poppetje en kleding buttons -->
+      <section id="buttonslinks">
+        <!-- buttons links (vorige) -->
+        <button id="hoofdlinks">&lt;</button>
+        <button id="shirtlinks">&lt;</button>
+        <button id="broeklinks">&lt;</button>
+      </section>
+      <section>
+        <!-- poppetje hoofd,shirt,benen -->
+        <img id="hoofd" src="images/hoofd-0.png" alt="" />
+        <img id="shirt" src="images/shirt-0.png" alt="" />
+        <img id="broek" src="images/broek-0.png" alt="" />
+
+        <img id="kip" class="hidden" src="images/kip.png" alt="">
+
+
+        <img id="platform" src="images/platform.png" alt="" />
+      </section>
+      <section id="buttonsrechts">
+        <!-- buttons rechts (volgende) -->
+        <button id="hoofdrechts">></button>
+        <button id="shirtrechts">></button>
+        <button id="broekrechts">></button>
+      </section>
+    </section>
+    <section>
+      <!-- random button, voice button en chicken button -->
+      <button id="speaker">
+        <img src="images/buttons/speaker.png" alt="" />
+        <source src="audio/audio-0.mp3" type="audio/mp3">
+      </button>
+      <button id="random">
+        ∞
+      </button>
+      <button id="chicken">
+        <img src="images/buttons/kip_img.png" alt="" />
+      </button>
+    </section>
+  </main>
+  <footer>
+    <!-- copyright -->
+    <p>&copy; Victoria Romijn - <a href="https://github.com/victoriaromijn/Programmeren_Herkansing"> github</a></p>
+  </footer>
+  <script type="text/javascript" src="script-olifant-new.js"></script>
+</body>
+
+</html>
